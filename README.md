@@ -1,4 +1,4 @@
-﻿`                                                       `**REPRODUCTION OF THE ANALYSIS**
+                                                       `**REPRODUCTION OF THE ANALYSIS**
 
 **STEP 0: SOFTWARE ENVIRONMENT REQUIREMENT:**
 
@@ -8,29 +8,29 @@ Both R and Matlab softwares are utilized for programming depending on the type o
 
 FOR MULTIPLE MYELOMA
 
-\1.  Run  “./Data\_And\_Codes/ Data\_Processing / DataProc\_Myeloma.R”   for Multiple Myeloma (MM) data. 
+1.  Run  “./Data\_And\_Codes/ Data\_Processing / DataProc\_Myeloma.R”   for Multiple Myeloma (MM) data. 
 
-\2. Obtain the processed data in the same folder:  (a) Input\_Myeloma.mat, (b)  DataForFittingMyeloma.Rdata. A copy of them are provided in “./Data\_And\_Codes /MetaData/”
+2. Obtain the processed data in the same folder:  (a) Input\_Myeloma.mat, (b)  DataForFittingMyeloma.Rdata. A copy of them are provided in “./Data\_And\_Codes /MetaData/”
 
 FOR BREAST CANCER
 
-\1.  Run  “./Data\_And\_Codes/ Data\_Processing / DataProc\_Breastcancer.R” for Breast cancer(BC) data.
+1.  Run  “./Data\_And\_Codes/ Data\_Processing / DataProc\_Breastcancer.R” for Breast cancer(BC) data.
 
-\2. Obtain the processed data in the same folder:  (a) Input\_Breastcancer.mat, (b)  DataForFittingBreastcancer.Rdata. A copy of them are provided in “./Data\_And\_Codes /MetaData/”
+2. Obtain the processed data in the same folder:  (a) Input\_Breastcancer.mat, (b)  DataForFittingBreastcancer.Rdata. A copy of them are provided in “./Data\_And\_Codes /MetaData/”
 
 **STEP 2: iRx IMPLEMENTATION:**  
 
-\1. Run  “./Data\_And\_Codes/iRx\_main\_real\_implementation.m”   
+1. Run  “./Data\_And\_Codes/iRx\_main\_real\_implementation.m”   
 
-\2. Obtain two “.mat” files. (a) MatOut\_Myeloma  (b) MatOut\_Breastcancer.  A copy of them are provided in “./Data\_And\_Codes /MetaData/”.
+2. Obtain two “.mat” files. (a) MatOut\_Myeloma  (b) MatOut\_Breastcancer.  A copy of them are provided in “./Data\_And\_Codes /MetaData/”.
 
 
 
 **STEP 3:   Implementation of PC\_ind, PC\_joint + VISUALIZING OUTPUTS** 
 
-\1. Run  “./Data\_And\_Codes/Output\_Visualization/Myeloma.R”   for Myeloma study.
+1. Run  “./Data\_And\_Codes/Output\_Visualization/Myeloma.R”   for Myeloma study.
 
-\2. Run  “./Data\_And\_Codes/Output\_Visualization/Breastcancer.R” for Breast cancer study
+2. Run  “./Data\_And\_Codes/Output\_Visualization/Breastcancer.R” for Breast cancer study
 
 The aforementioned programs in this folder may use auxiliary subroutines and pre-downloaded data-sets from other folders, as specified in the “Requirements and Outputs” column in the table below. Each program is heavily commented for being self-explanatory. To execute them smoothly, please load whole folder of Data\_And\_Codes. 
 
