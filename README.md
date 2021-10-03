@@ -1,4 +1,4 @@
-                                                       `**REPRODUCTION OF THE ANALYSIS**
+                                                       **REPRODUCTION OF THE ANALYSIS**
 
 **STEP 0: SOFTWARE ENVIRONMENT REQUIREMENT:**
 
